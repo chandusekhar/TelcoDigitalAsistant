@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Telco.DigitalAssistant.Bot", "Microsoft.Telco.DigitalAssistant.Bot\Microsoft.Telco.DigitalAssistant.Bot.csproj", "{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D6697AD-DCFF-4D34-9406-721B6FA7279C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Telco.DigitalAssistant.Logging", "Microsoft.Telco.DigitalAssistant.Logging\Microsoft.Telco.DigitalAssistant.Logging.csproj", "{DD664327-A56B-40EB-ACF9-55845D050D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Telco.DigitalAssistant.Common", "Microsoft.Telco.DigitalAssistant.Common\Microsoft.Telco.DigitalAssistant.Common.csproj", "{6559CAB0-E1BE-4ECB-9AB1-255BB7D22B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Telco.DigitalAssistant.Data", "Microsoft.Telco.DigitalAssistant.Data\Microsoft.Telco.DigitalAssistant.Data.csproj", "{020AD4CF-CFF4-4440-A0C3-5D99DBC830B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Telco.DigitalAssistant.BotTests", "Microsoft.Telco.DigitalAssistant.BotTests\Microsoft.Telco.DigitalAssistant.BotTests.csproj", "{A6ECFE5F-C2D3-4DB4-AFDB-6FC9DF80C192}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD664327-A56B-40EB-ACF9-55845D050D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD664327-A56B-40EB-ACF9-55845D050D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD664327-A56B-40EB-ACF9-55845D050D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD664327-A56B-40EB-ACF9-55845D050D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6559CAB0-E1BE-4ECB-9AB1-255BB7D22B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6559CAB0-E1BE-4ECB-9AB1-255BB7D22B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6559CAB0-E1BE-4ECB-9AB1-255BB7D22B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6559CAB0-E1BE-4ECB-9AB1-255BB7D22B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020AD4CF-CFF4-4440-A0C3-5D99DBC830B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020AD4CF-CFF4-4440-A0C3-5D99DBC830B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020AD4CF-CFF4-4440-A0C3-5D99DBC830B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020AD4CF-CFF4-4440-A0C3-5D99DBC830B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6ECFE5F-C2D3-4DB4-AFDB-6FC9DF80C192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6ECFE5F-C2D3-4DB4-AFDB-6FC9DF80C192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6ECFE5F-C2D3-4DB4-AFDB-6FC9DF80C192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6ECFE5F-C2D3-4DB4-AFDB-6FC9DF80C192}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+	EndGlobalSection
+EndGlobal
